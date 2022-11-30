@@ -1,3 +1,60 @@
-h1 {
-    color: blue;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-item-content1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header-item-content2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    box-shadow: inset 2px 2px 4px black;
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tech-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F3927;
+}
+
+.wisdom {
+    background-color: #E5E7EB;
+}
+
+.wisdom-item1 {
+    font-size: 36px;
+    color: #1F2937;
+
 }
