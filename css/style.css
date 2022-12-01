@@ -51,7 +51,9 @@ ul {
     border-radius: 10px;
     width: 90px;
     height: 25px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
