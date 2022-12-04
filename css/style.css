@@ -7,6 +7,8 @@ body {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .header-item-top {
@@ -21,12 +23,18 @@ body {
     justify-items: flex-start;
 }
 
+.header-logo img {
+    border-radius: 40%;
+    height: auto;
+    width: 50px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    column-gap: 16px;
+    column-gap: 20px;
 }
 
 .header-item-bottom {
@@ -133,4 +141,9 @@ a {
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+img {
+    height: auto;
+    width: 180px;
 }
