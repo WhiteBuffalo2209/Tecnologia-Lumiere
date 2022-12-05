@@ -68,6 +68,7 @@ ul {
 .header-item-right img {
     height: auto;
     width: 180px;
+    border-radius: 10px;
 }
 
 a {
@@ -82,27 +83,49 @@ a:hover {
     padding-left: 200px;
     padding-right: 200px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .tech-info {
     font-size: 36px;
     font-weight: 800;
     color: #1F3927;
+    margin-bottom: 16px;
 }
 
 .tech-images {
     display: flex;
+    column-gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tech-images-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.tech-images-item img{
+    height: 200px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.tech-images-item .tech-description {
+    height: auto;
+    width: 180px;
+}
+
+
 
 .wisdom {
     background-color: #E5E7EB;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .wisdom-item1 {
