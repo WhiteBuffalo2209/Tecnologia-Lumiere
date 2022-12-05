@@ -20,13 +20,14 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-items: flex-start;
+    column-gap: 16px;
 }
 
 .header-logo img {
-    border-radius: 40%;
+    border-radius: 50%;
     height: auto;
-    width: 50px;
+    width: 40px;
+    border: 3px solid gray;
 }
 
 ul {
@@ -64,8 +65,17 @@ ul {
     justify-content: center;
 }
 
+.header-item-right img {
+    height: auto;
+    width: 180px;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
 }
 
 .tech-services {
@@ -143,7 +153,3 @@ a {
     padding-bottom: 30px;
 }
 
-img {
-    height: auto;
-    width: 180px;
-}
