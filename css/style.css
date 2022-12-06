@@ -63,6 +63,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: none;
 }
 
 .header-item-right img {
@@ -151,6 +152,7 @@ a:hover {
     padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
+    min-width: 250px;
 }
 
 .invite-item {
